@@ -146,13 +146,13 @@ if __name__ == "__main__":
                                        width_shift_range=0.1,
                                        height_shift_range=0.1)
 
-    print("训练数据集的数据个数 =", n_train)
-    print("训练图像尺寸  =", image_shape)
-    print("训练类别数量 =", n_classes)
+    print("Number of training examples =", n_train)
+    print("Training image shape =", image_shape)
+    print("Number of training classes =", n_classes)
 
-    print("测试数据集的数据个数 =", n_test)
-    print("测试图像尺寸  =", Timage_shape)
-    print("测试类别数量 =", m_classes)
+    print("Number of test examples =", n_test)
+    print("Test image shape =", Timage_shape)
+    print("Number of test classes =", m_classes)
 
     show_random_samples(X_train, y_train, n_classes)
     show_test_samples(X_test, y_test, m_classes)
