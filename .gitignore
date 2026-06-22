@@ -1,0 +1,38 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Datasets
+data/
+traffic-signs-data/
+*.p
+*.pkl
+
+# Model artifacts and checkpoints
+*.h5
+*.hdf5
+*.keras
+*.weights.h5
+checkpoints/
+
+# Images, figures, and training outputs
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.svg
+training_history.*
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
